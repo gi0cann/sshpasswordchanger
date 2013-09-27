@@ -1,0 +1,6 @@
+# Example Config example
+HOST 1
+IP: 192.168.1.2
+username: testuser
+password: testpass
+newpass: testnewpass
