@@ -5,9 +5,9 @@ Python command tool for changing password remotely over ssh using paramiko modul
 
 usage:
 ======
-
+<pre>
 python sshpasschanger.py -c <config filename>
-
+</pre>
 config format:
 ==============
 <pre>
