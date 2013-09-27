@@ -11,11 +11,11 @@ python sshpasschanger.py -c <config filename>
 config format:
 ==============
 
-HOST <host number/name>
-IP: <ip address>
-username: <username>
-password: <current password>
-newpass: <new password>
+HOST \<host number/name\>
+IP: \<ip address\>
+username: <\username\>
+password: <\current password\>
+newpass: <\new password\>
 
 # Example Config example
 HOST 1
