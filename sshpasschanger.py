@@ -55,26 +55,23 @@ class Hosts(threading.Thread):
             thread.exit()
         stdin, stdout, stderr = ssh.exec_command('passwd')
         if self.username == 'root':
-            print 1
             stdin.write('%s\n' % self.newpass)
             stdin.flush()
-            print 2
             stdin.write('%s\n' % self.newpass)
             stdin.flush()
-            print 3
             print stdout.readlines()
+            print "password change on %s for user %s successfull" % \
+                (self.ip_addr, self.username)
         else:
-            print 1
             stdin.write('%s\n' % self.password)
             stdin.flush()
-            print 2
             stdin.write('%s\n' % self.newpass)
             stdin.flush()
-            print 3
             stdin.write('%s\n' % self.newpass)
             stdin.flush()
-            print 4
             print stdout.readlines()
+            print "password change on %s for user %s successfull" % \
+                (self.ip_addr, self.username)
         ssh.close()
 
 
