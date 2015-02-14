@@ -1,0 +1,11 @@
+# Example Config example
+HOST 1
+IP: 10.20.31.195
+username: root
+password: abcd1234
+newpass: testnewpass1234!@$#!
+HOST 2
+IP: 10.20.31.178
+username: root
+password: abcd1234
+newpass: testnewpass1234!@$#!

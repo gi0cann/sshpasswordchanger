@@ -1,6 +1,6 @@
 # Example Config example
 HOST 1
-IP: 192.168.1.2
-username: testuser
-password: testpass
-newpass: testnewpass1234!@$#!
+IP: 10.20.31.195
+username: root
+password: testnewpass1234!@$#!
+newpass: abcd1234

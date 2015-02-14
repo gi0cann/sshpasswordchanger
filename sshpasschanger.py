@@ -17,7 +17,7 @@ args = arg_parser.parse_args()
 host_re = re.compile("(^HOST [\d\w])")
 ip_re = re.compile("^IP: (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})")
 user_re = re.compile("^username: ([\w+\d+]+)")
-password_re = re.compile("^password: ([\w+\d+]+)")
+password_re = re.compile("^password: (.+)")
 newpass_re = re.compile("^newpass: (.+)")
 filename = args.c[0]
 
